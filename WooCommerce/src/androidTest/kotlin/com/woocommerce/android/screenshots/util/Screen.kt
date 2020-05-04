@@ -159,7 +159,6 @@ open class Screen {
     }
 
     fun selectItemAtIndexInRecyclerView(index: Int, recyclerViewId: Int, elementId: Int = 0) {
-
         if (elementId == 0) {
             waitForAtLeastOneElementToBeDisplayed(elementId)
         }
